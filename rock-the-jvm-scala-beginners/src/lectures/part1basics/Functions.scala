@@ -44,9 +44,9 @@ object Functions extends App {
 
     // EXERCISE 2
 
-    def aFactorialFunction(n: Int) : Int = {
+    def aFactorialFunction(n: Int) : BigInt = {
       val factorial: Int = n
-      if(n == 1) factorial
+      if(n <= 1) factorial
       else factorial * aFactorialFunction(n-1)
     }
     println("Factorial: " + aFactorialFunction(5))
@@ -73,10 +73,8 @@ object Functions extends App {
       else n
     }
 
-    if (n == 2 || n % iterator(n) != 0) true
+    if (n == 2 || n % iterator(n) != 0) true // verifica se o resto da divisao de todos os numeros antecessores a n é diferente de 0
     else false
-
-
   }
 
   println(isPrime(37))

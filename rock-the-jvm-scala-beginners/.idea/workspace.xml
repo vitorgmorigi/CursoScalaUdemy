@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3198845-d5be-4096-a36a-39cd738001b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/Functions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/Recursion.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lectures/part1basics/Functions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part1basics/Functions.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="90">
+              <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Recursion.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -90,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/lectures/part1basics/ValuesVarieblesTypes.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1basics/Expressions.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1basics/Functions.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part1basics/Recursion.scala" />
       </list>
     </option>
   </component>
@@ -150,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Functions">
+  <component name="RunManager" selected="Application.Recursion">
     <configuration name="Expressions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Expressions" />
       <module name="rock-the-jvm-scala-beginners" />
@@ -177,6 +189,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Recursion" />
+      <module name="rock-the-jvm-scala-beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part1basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValuesVarieblesTypes" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.ValuesVarieblesTypes" />
       <module name="rock-the-jvm-scala-beginners" />
@@ -192,6 +217,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.Expressions" />
         <item itemvalue="Application.ValuesVarieblesTypes" />
@@ -291,8 +317,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Functions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="90">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Recursion.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
         </state>
       </provider>
     </entry>
