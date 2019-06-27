@@ -1,34 +1,33 @@
 package exercises
 
-abstract class MyList {
+abstract class MyList[+A] {
 
-  def head: Int
-  def tail: MyList
+  def head: A
+  def tail: MyList[A]
   def isEmpty: Boolean
-  def add(i: Int): MyList
+  def add[B >: A](element: B): MyList[B]
   def printElements: String
 
   override def toString: String = "["+ printElements +"]"
 }
 
-object Empty extends MyList {
+object Empty extends MyList[Nothing] {
 
   def isEmpty = true
-  def head: Int = throw new NoSuchElementException("Empty list")
-  def tail: MyList = throw new NoSuchElementException("Empty list")
-  def add(element: Int): MyList = new Cons(element, this)
+  def head: Nothing = throw new NoSuchElementException("Empty list")
+  def tail: Nothing = throw new NoSuchElementException("Empty list")
+  def add[B >: Nothing](element: B): MyList[B] = new Cons(element, this)
 
   override def printElements: String = ""
-
 }
 
 
-class Cons(h: Int, t: MyList) extends MyList {
+class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
 
-  def head: Int = h
-  def tail: MyList = new Cons(h, t)
+  def head: A = h
+  def tail: MyList[A] = new Cons(h, t)
   def isEmpty: Boolean = false
-  def add(element: Int): MyList = new Cons(element, this)
+  def add[B >: A](element: B): MyList[B] = new Cons(element, this)
 
   def printElements: String = {
     if(t.isEmpty) "" + h
@@ -37,12 +36,39 @@ class Cons(h: Int, t: MyList) extends MyList {
 
 }
 
+
+trait MyPredicate[-T] {
+  def test(t: T): Boolean
+}
+
+trait MyTransformer[-A, B]{
+  def transform(a: A): B
+}
+
+//  class EvenPredicate extends MyPredicate[Int]{
+//  def test(t: Int): Boolean = isInstanceOf[Int]
+//}
+//
+//  class StringToIntTransformer extends MyTransformer[String, Int]{
+//    def transform(str: String): Int = {
+//      str.toInt
+//    }
+//  }
+
+
+
+
 object ListTest extends App {
-  val list = new Cons(1, new Cons(3, new Cons(17, new Cons(9, Empty))))
-  println(list.head)
+  val listOfIntegers: MyList[Int] = new Cons(1, new Cons(3, new Cons(17, new Cons(9, Empty))))
+  val listOfStrings: MyList[String] = new Cons("a", new Cons("b", new Cons[String]("c", Empty)))
+  println(listOfIntegers.head)
+  println(listOfStrings.head)
+  println(listOfIntegers.toString)
+  println(listOfStrings.toString)
+
+//  val testInteger = new EvenPredicate
+//  testInteger.test("as")
 
 
-
-  println(list.toString)
 
 }
