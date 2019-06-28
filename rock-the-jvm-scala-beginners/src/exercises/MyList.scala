@@ -9,6 +9,9 @@ abstract class MyList[+A] {
   def printElements: String
 
   override def toString: String = "["+ printElements +"]"
+  def map[B](transformer: MyTransformer[A, B]): MyList[B]
+  //def flatMap[B](transformer: MyTransformer[A, MyList[B]]): MyList[B]
+  def filter(predicate: MyPredicate[A]): MyList[A]
 }
 
 object Empty extends MyList[Nothing] {
@@ -19,6 +22,10 @@ object Empty extends MyList[Nothing] {
   def add[B >: Nothing](element: B): MyList[B] = new Cons(element, this)
 
   override def printElements: String = ""
+
+  def map[B](transformer: MyTransformer[Nothing, B]): MyList[B] = Empty
+  def flatMap[B](transformer: MyTransformer[Nothing, MyList[B]]): MyList[B] = Empty
+  def filter(predicate: MyPredicate[Nothing]): MyList[Nothing] = Empty
 }
 
 
@@ -34,6 +41,12 @@ class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
     else h + " " + t.printElements
   }
 
+  def filter(predicate: MyPredicate[A]): MyList[A] =
+    if (predicate.test(h)) new Cons(h, t.filter(predicate))
+    else t.filter(predicate)
+
+  def map[B](transformer: MyTransformer[A, B]): MyList[B] =
+    new Cons(transformer.transform(h), t.map(transformer))
 }
 
 
@@ -59,12 +72,17 @@ trait MyTransformer[-A, B]{
 
 
 object ListTest extends App {
-  val listOfIntegers: MyList[Int] = new Cons(1, new Cons(3, new Cons(17, new Cons(9, Empty))))
+  val listOfIntegers: MyList[Int] = new Cons(2, new Cons(3, new Cons(17, new Cons(9, Empty))))
   val listOfStrings: MyList[String] = new Cons("a", new Cons("b", new Cons[String]("c", Empty)))
   println(listOfIntegers.head)
   println(listOfStrings.head)
   println(listOfIntegers.toString)
   println(listOfStrings.toString)
+
+
+  println(listOfIntegers.filter(new MyPredicate[Int] {
+    override def test(t: Int): Boolean = t == 2
+  }))
 
 //  val testInteger = new EvenPredicate
 //  testInteger.test("as")
