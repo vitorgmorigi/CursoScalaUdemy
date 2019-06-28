@@ -6,9 +6,9 @@ object AnonymousClasses extends App {
     def eat: Unit
   }
 
-  class AnonymousClasses$$anon$1 extends Animal{
-    override def eat: Unit = println("hahahahaha")
-  }
+//  class AnonymousClasses$$anon$1 extends Animal{
+//    override def eat: Unit = println("hahahahaha")
+//  }
 
   // anonymous class
   val funnyAnimal = new Animal {
@@ -28,12 +28,14 @@ object AnonymousClasses extends App {
   }
 
   val jim = new Person("Jim"){
-    override def sayHi: Unit = println("Hi, my name is Jim, how can I help?")
+    override def sayHi: Unit = println("Hi, blablabla")
   }
 
 
   println(funnyAnimal.getClass)
+  println(funnyAnimal.eat)
   println(jim.sayHi)
+  println(jim.getClass)
   val somebody = new Person("Vitor")
   println(somebody.sayHi)
   println(somebody.getClass)

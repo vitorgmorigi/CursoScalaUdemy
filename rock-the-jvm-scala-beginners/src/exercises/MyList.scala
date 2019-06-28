@@ -14,12 +14,12 @@ abstract class MyList[+A] {
   def filter(predicate: MyPredicate[A]): MyList[A]
 }
 
-object Empty extends MyList[Nothing] {
+case object Empty extends MyList[Nothing] {
 
   def isEmpty = true
   def head: Nothing = throw new NoSuchElementException("Empty list")
   def tail: Nothing = throw new NoSuchElementException("Empty list")
-  def add[B >: Nothing](element: B): MyList[B] = new Cons(element, this)
+  def add[B >: Nothing](element: B): MyList[B] = Cons(element, this)
 
   override def printElements: String = ""
 
@@ -29,12 +29,12 @@ object Empty extends MyList[Nothing] {
 }
 
 
-class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
+case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
 
   def head: A = h
-  def tail: MyList[A] = new Cons(h, t)
+  def tail: MyList[A] = Cons(h, t)
   def isEmpty: Boolean = false
-  def add[B >: A](element: B): MyList[B] = new Cons(element, this)
+  def add[B >: A](element: B): MyList[B] = Cons(element, this)
 
   def printElements: String = {
     if(t.isEmpty) "" + h
@@ -42,11 +42,11 @@ class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
   }
 
   def filter(predicate: MyPredicate[A]): MyList[A] =
-    if (predicate.test(h)) new Cons(h, t.filter(predicate))
+    if (predicate.test(h)) Cons(h, t.filter(predicate))
     else t.filter(predicate)
 
   def map[B](transformer: MyTransformer[A, B]): MyList[B] =
-    new Cons(transformer.transform(h), t.map(transformer))
+    Cons(transformer.transform(h), t.map(transformer))
 }
 
 
@@ -71,9 +71,9 @@ trait MyTransformer[-A, B]{
 
 
 
-object ListTest extends App {
-  val listOfIntegers: MyList[Int] = new Cons(2, new Cons(3, new Cons(17, new Cons(9, Empty))))
-  val listOfStrings: MyList[String] = new Cons("a", new Cons("b", new Cons[String]("c", Empty)))
+case object ListTest extends App {
+  val listOfIntegers: MyList[Int] = Cons(2, Cons(3, Cons(17, Cons(9, Empty))))
+  val listOfStrings: MyList[String] = Cons("a", Cons("b", Cons[String]("c", Empty)))
   println(listOfIntegers.head)
   println(listOfStrings.head)
   println(listOfIntegers.toString)
