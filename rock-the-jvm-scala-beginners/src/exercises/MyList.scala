@@ -47,7 +47,10 @@ case class Cons[+A](h: A, t: MyList[A]) extends MyList[A] {
 
   def map[B](transformer: MyTransformer[A, B]): MyList[B] =
     Cons(transformer.transform(h), t.map(transformer))
+
 }
+
+
 
 
 trait MyPredicate[-T] {

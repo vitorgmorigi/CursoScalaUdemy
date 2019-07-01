@@ -2,22 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3198845-d5be-4096-a36a-39cd738001b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/CaseClasses.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/Exceptions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_Filesystem/src/com/rtjvm/scala/oop/commands/Mkdir.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_Filesystem/src/com/rtjvm/scala/oop/commands/UnknownCommand.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/AnonymousFunctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/HOFsCurries.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/MapFlatmapFilterFor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/Sequences.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3fp/WhatsAFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_Filesystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_Filesystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_Filesystem/out/production/demo_Filesystem/com/rtjvm/scala/oop/filesystem/Filesystem$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_Filesystem/out/production/demo_Filesystem/com/rtjvm/scala/oop/filesystem/Filesystem$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_Filesystem/out/production/demo_Filesystem/com/rtjvm/scala/oop/filesystem/Filesystem$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_Filesystem/out/production/demo_Filesystem/com/rtjvm/scala/oop/filesystem/Filesystem$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_Filesystem/out/production/demo_Filesystem/com/rtjvm/scala/oop/filesystem/Filesystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_Filesystem/out/production/demo_Filesystem/com/rtjvm/scala/oop/filesystem/Filesystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_Filesystem/src/com/rtjvm/scala/oop/commands/Command.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_Filesystem/src/com/rtjvm/scala/oop/commands/Command.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_Filesystem/src/com/rtjvm/scala/oop/filesystem/Filesystem.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_Filesystem/src/com/rtjvm/scala/oop/filesystem/Filesystem.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_Filesystem/src/com/rtjvm/scala/oop/filesystem/State.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_Filesystem/src/com/rtjvm/scala/oop/filesystem/State.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/Cons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/Cons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/Empty$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/Empty$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/Empty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/Empty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/ListTest$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/ListTest$$anon$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/ListTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/ListTest$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/ListTest$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/ListTest$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/exercises/MyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/AnonymousClasses$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/AnonymousClasses$$anon$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/AnonymousClasses$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/AnonymousClasses$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/AnonymousClasses$Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/AnonymousClasses$Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/AnonymousClasses$AnonymousClasses$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/AnonymousClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/AnonymousClasses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/Exceptions$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/Exceptions$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/Exceptions$PocketCalculator$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-the-jvm-scala-beginners/lectures/part2oop/Exceptions$PocketCalculator$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/MyList.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part2oop/AnonymousClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part2oop/AnonymousClasses.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,64 +37,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/Objects.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/Inheritance.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/AbstractDataTypes.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercises/MyList.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-658">
-              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="833">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/CaseClasses.scala">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/MapFlatmapFilterFor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="209">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/Exceptions.scala">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/Sequences.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Recursion.scala">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/Exceptions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/WhatsAFunction.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="18" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/AnonymousFunctions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/HOFsCurries.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -97,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/AnonymousClasses.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="425">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -152,12 +157,17 @@
         <option value="$PROJECT_DIR$/src/lectures/part2oop/Generics.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part2oop/AnonymousClasses.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part2oop/CaseClasses.scala" />
-        <option value="$PROJECT_DIR$/src/exercises/MyList.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part2oop/Exceptions.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part3fp/WhatsAFunction.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part3fp/AnonymousFunctions.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part3fp/HOFsCurries.scala" />
+        <option value="$PROJECT_DIR$/src/exercises/MyList.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part3fp/MapFlatmapFilterFor.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part3fp/Sequences.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="587" />
     <option name="y" value="85" />
     <option name="width" value="1265" />
@@ -169,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,26 +209,12 @@
               <item name="rock-the-jvm-scala-beginners" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="part1basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rock-the-jvm-scala-beginners" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rock-the-jvm-scala-beginners" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="part2oop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rock-the-jvm-scala-beginners" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rock-the-jvm-scala-beginners" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="playground" type="462c0819:PsiDirectoryNode" />
+              <item name="part3fp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -240,13 +237,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exceptions">
-    <configuration name="AnonymousClasses" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AnonymousClasses" />
+  <component name="RunManager" selected="Application.Sequences">
+    <configuration name="AnonymousFunctions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3fp.AnonymousFunctions" />
       <module name="rock-the-jvm-scala-beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="PATTERN" value="lectures.part3fp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,12 +251,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CaseClasses" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.CaseClasses" />
+    <configuration name="HOFsCurries" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3fp.HOFsCurries" />
       <module name="rock-the-jvm-scala-beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="PATTERN" value="lectures.part3fp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,12 +264,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Exceptions" />
+    <configuration name="MapFlatmapFilterFor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3fp.MapFlatmapFilterFor" />
       <module name="rock-the-jvm-scala-beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="PATTERN" value="lectures.part3fp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Generics" />
+    <configuration name="Sequences" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3fp.Sequences" />
       <module name="rock-the-jvm-scala-beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="PATTERN" value="lectures.part3fp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,12 +290,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.ListTest" />
+    <configuration name="WhatsAFunction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3fp.WhatsAFunction" />
       <module name="rock-the-jvm-scala-beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.*" />
+          <option name="PATTERN" value="lectures.part3fp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exceptions" />
-        <item itemvalue="Application.CaseClasses" />
-        <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.AnonymousClasses" />
-        <item itemvalue="Application.Generics" />
+        <item itemvalue="Application.Sequences" />
+        <item itemvalue="Application.MapFlatmapFilterFor" />
+        <item itemvalue="Application.HOFsCurries" />
+        <item itemvalue="Application.AnonymousFunctions" />
+        <item itemvalue="Application.WhatsAFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -348,10 +345,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -478,6 +475,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/CaseClasses.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Recursion.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/AnonymousClasses.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/Generics.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -488,38 +506,52 @@
     <entry file="file://$PROJECT_DIR$/rock-the-jvm-scala-beginners.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/AnonymousClasses.scala">
+    <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/Exceptions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="175">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/WhatsAFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/HOFsCurries.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/AnonymousFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/MyList.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-658">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="833">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/CaseClasses.scala">
+    <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/MapFlatmapFilterFor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="209">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Recursion.scala">
+    <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/Sequences.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part2oop/Exceptions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
